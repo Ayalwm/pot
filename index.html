@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="nav-header">
+      <nav class="nav grid-elements">
+        <div>
+          <a href="#home" class="nav__logo">ayal</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__ulist">
+            <li class="nav__list">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__list">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__list">
+              <a href="#pro" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__list">
+              <a href="#background" class="nav__link">Education</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home grid-elements" id="home">
+        <div class="home_section">
+          <h1 class="home__title">
+            <font size="5px">Hello!</font>
+            <br />I'm <span class="profile_name">Ayalnesh</span>
+            <br />
+            <font size="5px">Front End Web Developer</font>
+          </h1>
+          <h1><i></i></h1>
+        </div>
+        <div class="social_links">
+          <a
+            href="https://github.com/Ayalwm"
+            target="_blank"
+            class="social_links-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:ayalworku.17@gmail.com" class="social_links-icon">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a
+            href="https://t.me/ayal_w"
+            target="_blank"
+            class="social_links-icon">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </div>
+        <div class="profile_img">
+          <img class="profile" src="img/profile2.png" alt="my profile picture" />
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about__container grid-elements">
+          <div></div>
+          <div>
+            <h2 class="about__subtitle">I am Ayalnesh Worku</h2>
+            <p class="about__text">
+              I’m a front-end web developer passionate about
+               creating vibrant, user-friendly websites. I 
+               thrive on design and problem-solving, enjoy 
+               experimenting with new tech, and work on 
+               personal projects to stay inspired. Always 
+               eager for new challenges and connecting with fellow tech enthusiasts.
+            </p>
+          </div>
+        </div>
+      </section>
+      <button id="scroll-to-top" class="scroll-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <section class="section pro" id="pro">
+        <h2 class="section-title">Projects</h2>
+        <div class="pro__container grid-elements">
+        <div class="pro__details" id="ricky_morty">
+          <h3>Ricky and morty Tv Show</h3>
+          <ul>
+            <li> 
+              Technologies used Vue3, GraphQL, Tailwind CSS, Apollo Client               
+            </li>
+            <li>
+              Developed adynamic website for the Rick and Morty TV show using Vue3 and the
+              Rick and Morty API, with a GraphQL server.
+            </li>
+            <li>Designing Figma and deployed the project on Vercel for easy access and testing</li>
+            <li>
+              Utilized Vue Router for nested routes, improving site navigation and user
+              experience.
+            </li>
+          </ul>
+          <img src="img/ricky3.png" alt="">
+        </div>
+        <div class="weather background__details">
+          <h3>Weather App</h3>
+         <p>A dynamic weather app that allows users to search for 
+          cities and view real-time weather information. The app 
+          features a clean and responsive interface, displaying 
+          current weather conditions, temperature, and local time. 
+          It utilizes a weather API to fetch real-time data and 
+          presents it in a user-friendly format. Built with a focus 
+          on performance and usability, this project demonstrates my 
+          skills in API integration, responsive design, and front-end development.</p>
+          <img src="img/weather.png" alt="nothing">
+        </div>
+        <div class="background__details java">
+          <h3>Classroom Management System</h3>
+          <ul>
+            <li>Technologies used: Java, JavaFX, MySQL, CSS</li>
+            <li>Developed a role-based system where students, lecturers, 
+              and admins access different pages based on database-authenticated credentials.</li>
+            <li>Students can mark attendance, view schedules, and rate lecturers, while 
+              lecturers manage classes and access feedback.</li>
+            <li>Admins handle user management, update schedules, and 
+              review ratings, ensuring smooth classroom operations.</li>
+          </ul>
+          <img src="img/java1.png" alt="nothing">
+
+      </div>
+      
+      </div>
+      </section>
+
+      <section class="background section" id="background">
+        <h2 class="section-title">Education and Certificate</h2>
+
+        <div class="background__container grid-elements">
+          <div class="background__details">
+            <h3>Higher Education</h3>
+            <ul>
+              <li>Bahir Dar University</li>
+              <li>Studying Software Engineering</li>
+              <li>Expected Graduation: July 2026</li>
+              <li>
+                Engaged in collaborative projects, fostering teamwork skills and
+                contributing to group projects
+              </li>
+            </ul>
+          </div>
+          
+          <div class="minab background__details">
+            <h3>Certified Full Stack and Mobile App Developer</h3>
+            <ul>
+              <li>Minab IT Solutions PLC(HaHuJobsTM)</li>
+              
+            </ul>
+            <img src="img/minab2.jpg" alt="">
+          </div>
+          <div class="minab background__details">
+            <h3>Certificate of Summer School on AI and Data Science</h3>
+            <ul>
+              <li>Organized by: University of Hamburg, Bahir Dar University, Addis Ababa Science and Technology University
+              </li>
+              <li>Supported by: Google Research
+              </li>
+              <li>
+                Topics Covered:
+              Natural Language Processing
+              Python Programming Essentials
+              Applied Machine Learning
+              and more</li>
+            </ul>
+            <img src="img/AIAA.jpg" alt="">
+          </div>          
+
+          
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__social">
+        <a href="https://github.com/Ayalwm" class="footer__icon"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="tel:+251948480874" class="footer__icon"
+          ><i class="fas fa-phone"></i>
+        </a>
+        <a href="mailto:ayalworku.17@gmail.com" class="footer__icon"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169;2016 Ayalnesh.</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
